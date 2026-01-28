@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="/server">
+            <label for="volume">Volume:</label>
+            <input type="range" name="volume" min="0" max="100" step="10" value="50">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <!-- textarea -->
+     <div>
+        <form action="/server">
+            <label for="feedback">your feedback:</label>
+            <textarea id="feedback" name="feedback" rows="5" cols="40" placeholder="Write ur feedback"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+     </div>
+</body>
+</html>
