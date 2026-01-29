@@ -37,5 +37,37 @@
         </tr>
         
     </table>
+    <form action="/server">
+        <div>
+        Name:
+        <input type="text" placeholder="username"/>
+        </div>
+        <div>
+        Gender:
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        </div>
+        <div>
+        Country:
+            <select name="Country" id="Country">
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+        </div>
+        <div>
+            Message:
+            <textarea name="Message" id="Message" cols="50" rows="5" placeholder="Enter your message here"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">subscribe ?</label>
+        </div>
+        <input type="submit" value="submit">
+    </form>
+    
 </body>
 </html>
